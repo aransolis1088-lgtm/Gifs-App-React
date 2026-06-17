@@ -8,6 +8,7 @@ export const MyCounterApp = () => {
         <div style={{
             display: 'flex',
             flexDirection: 'column',
+            alignItems: 'center',
         }}>
             <h1>Counter : {counter} </h1>
             <div style={{

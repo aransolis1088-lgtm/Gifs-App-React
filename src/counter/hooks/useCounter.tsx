@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-const useCounter = (initialValue: number = 5) => {
+const useCounterSuper = (initialValue: number = 5) => {
 
     const [counter, setCounter] = useState(initialValue);
 
@@ -12,4 +12,4 @@ const useCounter = (initialValue: number = 5) => {
     return { counter, handleAdd, handleSubtract, handleReset }
 }
 
-export default useCounter
+export default useCounterSuper
